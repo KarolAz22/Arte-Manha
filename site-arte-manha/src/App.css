@@ -1,0 +1,74 @@
+.App {
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #00604C;
+  color: #fff;
+  padding: 10px;
+  
+  
+}
+/* Estilos para a lista de itens da barra de navegação */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 70px;
+}
+
+/* Estilos para os itens da lista */
+nav ul li {
+  display: inline;
+}
+
+/* Estilos para os links dos itens da lista */
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para os links dos itens da lista quando estão sendo visitados */
+nav ul li a:visited {
+  color: #fff;
+}
+
+/* Estilos para os links dos itens da lista quando estão em foco */
+nav ul li a:focus {
+  color: #ff0;
+}
+
+/* Estilos para os links dos itens da lista quando o mouse passa por cima */
+nav ul li a:hover {
+  color: #ED8B42;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
