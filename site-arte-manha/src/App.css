@@ -51,7 +51,7 @@ nav ul li a:visited {
 
 /* Estilos para os links dos itens da lista quando estão em foco */
 nav ul li a:focus {
-  color: #ff0;
+  color: #ED8B42;
 }
 
 /* Estilos para os links dos itens da lista quando o mouse passa por cima */
@@ -71,4 +71,26 @@ nav ul li a:hover {
   to {
     transform: rotate(360deg);
   }
+}
+.rectangle{
+  width: 350px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 15%;
+  background-color: #ED8B42;
+  text-align: center;
+  padding-top: 5%;
+
+}
+
+.format{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5% ;
+}
+
+.alineHorizion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
