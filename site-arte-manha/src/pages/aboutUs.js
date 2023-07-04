@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div> 
       <img src={imagSobreNos} alt="imagem sobre nos" style={{width: '100%'}}></img>
-      <div class='format-sobre-nos alineHorizion' cols="12" lg="3">
+      <div class='format-sobre-nos aline-horizion' cols="12" lg="3">
         <div class='rectangle'>
             <p> Nossa missão</p>
             <p>Temos o intuito de oferecer aos nossos clientes os melhores artesanatos</p>

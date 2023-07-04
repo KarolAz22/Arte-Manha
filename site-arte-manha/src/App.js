@@ -2,6 +2,7 @@ import './App.css';
 import NavigationBar from './header/navigationBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutUs from './pages/aboutUs';
+import ContactUs from './pages/contactUs';
 
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
           <NavigationBar></NavigationBar>
           </header>
         </div>
-        <Routes>
-              
+          <Routes>
               <Route path="/sobre-nos" element={<AboutUs/>} />
+          </Routes>
+          <Routes>
+              <Route path="/fale-conosco" element={<ContactUs/>} />
           </Routes>
         
         

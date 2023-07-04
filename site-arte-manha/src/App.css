@@ -82,13 +82,13 @@ nav ul li a:hover {
   padding-top: 5%;
 
 }
-.footerStyle{
+.footer-style{
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 1rem
 }
-.formatFooter{
+.format-footer{
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -104,7 +104,7 @@ nav ul li a:hover {
   padding-bottom: 12%;
 }
 
-.alineHorizion{
+.aline-horizion{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -118,10 +118,51 @@ nav ul li a:hover {
   margin-right: 650px;
 }
 
-.hrFooter{
+.hr-footer{
   border: none;
   height: 1px;
   background-color: #fff;
   margin-top: 10%;
+}
+
+.format-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2%;
+}
+
+.input-form{
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #343A40;
+  background: #FFF;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+.text-area-form{
+  width: 600px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid #343A40;
+  background: #FFF;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+.button-form{
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background: #ED8B42;
+  color: #FFF;
+  margin-bottom: 3%;
+  align-self: flex-start;
+  margin-left: 26%;
 }
 

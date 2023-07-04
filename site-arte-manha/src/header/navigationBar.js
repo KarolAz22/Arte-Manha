@@ -10,7 +10,7 @@ class NavigationBar extends React.Component {
           <img src={logo} alt="Logo" style={{ height: '50px', marginRight: '20px' }}></img>
           <li><a href="/">Página Inicial</a></li>
           <li><Link to="/sobre-nos">Sobre Nós</Link></li>
-          <li><a href="/faleConosco">Fale Conosco</a></li>
+          <li><Link to="/fale-conosco">Fale Conosco</Link></li>
         </ul>
       </nav>
     );
