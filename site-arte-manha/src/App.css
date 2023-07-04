@@ -82,11 +82,26 @@ nav ul li a:hover {
   padding-top: 5%;
 
 }
-
-.format{
+.footerStyle{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem
+}
+.formatFooter{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 5% ;
+  
+}
+
+.format-sobre-nos{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 12% ;
+  padding-bottom: 12%;
 }
 
 .alineHorizion{
@@ -94,3 +109,19 @@ nav ul li a:hover {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.termos {
+  margin-right: 20px;
+}
+
+.politica{
+  margin-right: 650px;
+}
+
+.hrFooter{
+  border: none;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 10%;
+}
+

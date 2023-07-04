@@ -1,11 +1,12 @@
 import React from 'react';
-import imagSobreNos from './Arte&Manha.svg'
+import imagSobreNos from './Arte&Manha.svg';
+import Footer from '../footer/footer';
 
 const AboutUs = () => {
   return (
     <div> 
       <img src={imagSobreNos} alt="imagem sobre nos" style={{width: '100%'}}></img>
-      <div class='format alineHorizion' cols="12" lg="3">
+      <div class='format-sobre-nos alineHorizion' cols="12" lg="3">
         <div class='rectangle'>
             <p> Nossa missão</p>
             <p>Temos o intuito de oferecer aos nossos clientes os melhores artesanatos</p>
@@ -28,8 +29,9 @@ const AboutUs = () => {
                 (38) 98856-9880 <br/></p>
         </div>
       </div>
-      <h1>Sobre Nós</h1>
-      <p>Bem-vindo à nossa página "Sobre Nós"! Aqui você pode escrever informações sobre a sua empresa ou projeto.</p>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 };
