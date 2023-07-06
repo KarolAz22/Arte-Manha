@@ -3,6 +3,7 @@ import NavigationBar from './header/navigationBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutUs from './pages/aboutUs';
 import ContactUs from './pages/contactUs';
+import HomePage from './pages/homePage';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Routes>
           <Routes>
               <Route path="/fale-conosco" element={<ContactUs/>} />
+          </Routes>
+          <Routes>
+              <Route path="/home-page" element={<HomePage/>} />
           </Routes>
         
         

@@ -11,10 +11,10 @@ const AboutUs = () => {
             <p> Nossa missão</p>
             <p>Temos o intuito de oferecer aos nossos clientes os melhores artesanatos</p>
         </div>
-        <div class='rectangle'>
+        <div class=''>
             <p> Estamos localizados</p>
             <p>
-                Rua macal do meio
+                Rua Macal do Meio
                 Bairro Centro,
                 Diamantina/MG
                 CEP 39100-000</p>
