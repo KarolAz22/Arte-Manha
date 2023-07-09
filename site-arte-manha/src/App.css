@@ -166,12 +166,65 @@ nav ul li a:hover {
   margin-left: 26%;
 }
 
+.banner{
+  position: relative;
+  background-image: url('/src/pages/banner.svg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.format-pag-inicial{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 12% ;
+  padding-bottom: 3%;
+}
 .product-rectangle{
-  width: 384px;
+  width: 400px;
   height: 600px;
   flex-shrink: 0;
-  border-radius: 15%;
+  border-radius: 60px;
   background-color: #00604c;
-  text-align: center;
-  padding-top: 5%;
+
+}
+
+.product-rectangle img {
+  width: 100%;
+  height: 80%;
+}
+
+.product-rectangle p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.product-rectangle hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 10px 20px;
+}
+
+.search-bar {
+text-align: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 15px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-bar button[type="submit"] {
+  padding: 15px 15px;
+  background-color: #ED8B42;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
