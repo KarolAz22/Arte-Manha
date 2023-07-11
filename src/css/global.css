@@ -1,7 +1,3 @@
-.App {
-  
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -168,7 +164,7 @@ nav ul li a:hover {
 
 .banner{
   position: relative;
-  background-image: url('/src/pages/banner.svg');
+  background-image: url('../assets/banner.svg');
   height: 700px;
   background-size: cover;
   background-position: center;
