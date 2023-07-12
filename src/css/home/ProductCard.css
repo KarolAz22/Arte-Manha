@@ -1,0 +1,31 @@
+.product-card{
+  width: 200px;
+  min-height: 300px;
+  margin: 2px;
+  padding: 8px;
+  flex-shrink: 0;
+  flex-basis: 25% ;
+  border-radius: 2rem;
+  background-color: #00604c;
+  cursor: pointer;
+}
+.product-card img{
+  width: 100%;
+}
+
+.product-card p{
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* .product-card hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 10px 20px;
+} */
+
+.product-card:hover{
+  transform: scale(101%);
+}
