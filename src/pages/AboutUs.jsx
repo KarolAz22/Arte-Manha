@@ -1,4 +1,4 @@
-// import imagSobreNos from '../assets/Arte&Manha.svg';
+import imagSobreNos from '../assets/Arte&Manha.svg';
 
 function AboutUs() {
   return (
