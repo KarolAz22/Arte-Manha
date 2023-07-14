@@ -5,6 +5,9 @@ import productData from "../productData";
 // import banner from '../assets/banner.svg';
 
 function homePage(){
+
+
+
   return (
     <div>
       <div className="banner">
@@ -14,7 +17,7 @@ function homePage(){
         </div>
       </div>
       <div className='container home-cards-container'>
-        {productData.map((p) => <ProductCard img={p.img} nome={p.name} price={p.price}/>)}
+        {productData.map((p) => <ProductCard key={p.id} img={p.img} nome={p.name} price={p.price}/>)}
       </div>
     </div>
   );

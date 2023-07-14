@@ -1,3 +1,6 @@
+a{
+  all: unset;
+}
 .product-card{
   width: 200px;
   min-height: 300px;
