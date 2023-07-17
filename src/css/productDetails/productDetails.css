@@ -24,3 +24,9 @@
   align-items: start;
   flex-shrink: 0;
 }
+
+
+.icones{
+  display: flex;
+  flex-direction: row;
+}
